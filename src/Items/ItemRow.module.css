@@ -1,0 +1,17 @@
+.container{
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin-top: 321px;
+  margin-left: -55px;
+  /* overflow: hidden; */
+}
+ul{
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  gap: 5px;
+  /* overflow: hidden; */
+}

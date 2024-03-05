@@ -1,0 +1,25 @@
+.fab{
+  position: relative;
+  margin-top: -383px;
+  margin-left: 1110px;
+  width: 250px;
+  height: 380px;
+    }
+ .fabIcon{
+ 
+  position: absolute;
+  margin-top: 318px;
+  margin-left: 190px;
+}
+
+
+@media screen and (max-width:600px) {
+ .fab{
+  margin-top: -745px;
+  margin-left: 90px;
+  position: fixed;
+  z-index: 1;
+
+ }
+ 
+}

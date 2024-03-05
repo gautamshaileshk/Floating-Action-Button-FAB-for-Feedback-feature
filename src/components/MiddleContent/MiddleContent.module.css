@@ -1,0 +1,269 @@
+.container{
+  width: 800px;
+  margin-left: 304px;
+  height: 468px;
+}
+.card{
+  display: none;
+}
+@media screen and (max-width:600px) {
+  .container{
+    display: none;
+  }
+  .card{
+    display: block;
+    margin-top: 270px;
+    margin-left: 16px;
+  }
+}
+.container .upper{
+  background-color: #F8F8F8;
+  width: 100%;
+  height: 220px;
+  padding: 16px 32px 16px 32px;
+  border-radius: 4px;
+}
+
+.container .upper .navbar{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 750px;
+  height: 50px;
+}
+.container .upper .navbar .topic{
+  display: flex;
+  gap:5px;
+  align-items: center;
+  text-transform: capitalize;
+  font-weight: 500;
+
+}
+.topic div{
+   background-color: #A9D9FF;
+   padding: 8px 16px 8px 16px;
+   border-radius: 6px;
+}
+.navbar image{
+  width: 20px;
+  height: 20px;
+  display: flex;
+  padding: 10px;
+  /* flex-direction: column; */
+  align-items: center;
+  align-self: center;
+  justify-content: center;
+}
+
+.upper .text{
+  width: 740px;
+  height: 110px;
+  /* background-color: red; */
+  font-display: flex;
+  gap: 18px;
+  flex-direction: column;
+  padding: 10px;
+}
+.upper .text .text1{
+  color: #0F0F0F;
+  font-size: 18px;
+  line-height: 25px;
+  font-weight: 500;
+ 
+}
+
+.upper .text .text2{
+  color: #0F0F0F;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 27px;
+}
+
+.upper .info{
+  width: 740px;
+  height: 20px;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 8px;
+  padding:9px;
+}
+.upper .info .views{
+  display: flex;
+  gap: 5px;
+}
+.upper .info .message{
+  display: flex;
+   gap: 2px;
+}
+
+.mid {
+  width: 100%;
+  height: 30px;
+  
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 10px;
+}
+.mid .answer{
+  width: 160px;
+  
+}
+.mid .answer p{
+  font-size: 24px;
+  color: #F8F8F8;
+  font-weight: 700;
+  line-height: 30px;
+  text-transform: capitalize;
+}
+.mid .sort{
+  
+  display: flex;
+  gap: 11px;
+ 
+}
+.sort p{
+  color: #F8F8F8;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 21px;
+  text-transform: capitalize;
+}
+.sort span{
+   display: flex;
+   /* gap: px; */
+   width: 100px;
+   height: 20px;
+   background-color: #F8F8F8;
+   padding-left: 10px;
+   margin-right: 5px;
+   border-radius: 4px;
+   align-items: center;
+  
+}
+.sort span p{
+  color: #2A2A2A;
+  font-size: 18px;
+  line-height: 21px;
+}
+.sort span select{
+  background: none;
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
+
+.container .lower{
+  background-color: #DEE7FF;
+  width: 100%;
+  height: 205px;
+  padding: 16px 32px 16px 32px;
+  border-radius: 4px;
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: space-between; */
+}
+
+.container .lower .lowerNav{
+  width: 750px;
+  height: 40px;
+  display: flex;
+  justify-content: space-between;
+}
+.lowerNav .lowerUSer{
+  width: 600px;
+  height: 40px;
+  display: flex;
+  gap: 16px;
+}
+.lowerUSer img{
+  width: 60px;
+  height: 60px;
+}
+.lowerUSer span{
+  width: 160px;
+  height: 60px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.lowerUSer span .userName{
+  width: 170px;
+  height: 30px;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 30px;
+    color: #0F0F0F;
+}
+time{
+  font-size: 18px;
+  line-height: 27px;
+  font-weight: 500;
+}
+.lowerNav .edit{
+  width: 70px;
+  height: 40px;
+  display: flex;
+  gap: 10px;
+
+}
+.edit .icon{
+  color: #0F0F0F;
+  font-size: 25px;
+}
+.edit p{
+  text-transform: capitalize;
+  font-weight: 600;
+  font-size: 20px;
+}
+.lower .lowerText{
+  width: 100%;
+  height: 120px;
+  margin-top: 30px;
+}
+.lowerText p{
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 500;
+}
+.lowerInfo{
+  width: 100%;
+  height: 50px;
+  display: flex;
+  margin-left: 15px;
+  align-items: center;
+  gap: 16px;
+  margin-top: 7px;
+}
+.lowerInfo .like{
+  display: flex;
+  width: 70px;
+  height: 30px;
+  font-size: 20px;
+  gap: 5px;
+  align-items: center;
+}
+
+.lowerInfo .comment{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.comment input{
+  width: 400px;
+  height: 30px;
+  border-radius: 6px;
+  border: 1px solid black;
+  text-indent: 12px;
+}
+.comment button{
+  width: 70px;
+  height: 30px;
+  text-transform: uppercase;
+  padding: 8px 16px 8px 16px;
+  border-radius: 6px;
+  border: 1px solid black;
+  font-weight: 600;
+  color: #00000080;
+}

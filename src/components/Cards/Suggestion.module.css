@@ -1,0 +1,129 @@
+.container{
+  position: absolute;
+  width: 300px;
+  height: 350px;
+  background-color:#F8F8F8;
+  margin-left: -67px;
+  margin-top: -35px;
+  padding: 24px 16px 24px 16px;
+  border-radius: 8px;
+}
+.container .header{
+  width:100% ;
+  height: 48px;
+}
+.header p{
+  align-items: center;
+  font-size: 20px;
+  text-align: center;
+  line-height: 24px;
+  font-weight: 600;
+  color:#4D4D4D;
+
+}
+strong{
+  color: #0F0F0F;
+}
+hr{
+  margin-top: 10px;
+}
+.content{
+  width: 267px;
+  height: 260px;
+  margin-top: 8px;
+}
+form{
+  display: flex;
+  flex-direction: column;
+}
+.chooseLabel{
+  font-size: 18px;
+  line-height: 18px;
+  font-weight: 500;
+  color: #4D4D4D;
+}
+form .dropdown{
+  width: 100%;
+  height: 35px;
+  border-radius: 5px;
+  background-color:#E0E0E0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px;
+}
+.dropdown select{
+  background:transparent;
+  border: none;
+}
+.dropdown p{
+  color: #333333;
+  font-size: 18px;
+  line-height: 18px;
+}
+form .description{
+  width: 100%;
+  height: 120px;
+  display: flex;
+  flex-direction: column;
+}
+.descriptionTitle{
+  margin-top: 5px;
+  display: flex;
+  gap: 5px;
+}
+.description textarea{
+  width: 100%;
+  height: 100%;
+  background-color: #E0E0E0;
+  border: none;
+  text-indent: 8px;
+  border-radius: 5px;
+}
+.description button{
+  background-color:#C7C7C7;
+  width:70px ;
+  height: 25px;
+  border: none;
+  border-radius: 4px;
+  padding: 10px 10px 10px 6px;
+  z-index: 1;
+  position: absolute;
+  margin-top: 90px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+  margin-left: 5px;
+}
+.logedin{
+  width: 100%;
+ 
+  font-size: 1rem;
+  
+}
+.logedin1{
+  width: 100%;
+  height: 25px;
+}
+.logedin input{
+  background-color:#F8F8F8;
+  width: 70%;
+  height: 20px;
+  border-radius: 5px;
+  border: 1px solid;
+}
+form .submitBtn{
+  width: 70px;
+  height: 30px;
+  border-radius: 4px;
+  border: 1px;
+  padding: 7px 20px 10px  12px;
+  background-color: #6c6c6c;
+  color: #F8F8F8;
+  margin-top: -12px;
+  margin-left: 200px;
+  font-size: 15px;
+  font-weight: 500;
+}
